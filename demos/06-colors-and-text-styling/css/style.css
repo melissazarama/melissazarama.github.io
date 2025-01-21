@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(220, 232, 232);
 }
 
 #first-paragraph {
@@ -16,24 +17,34 @@ body {
 }
 
 #second-paragraph {
-    color: #FF0000;
+    color: #ca2722;
     background-color: lightpink;
-    font-size: 24px;
-    text-decoration: underline;
+    font-size: 35px;
+    text-decoration: green wavy underline;
 }
 
 #bold-paragraph {
+    color: #a4c8c8;
     font-weight: bold;
     background-color: #228b22;
+    font-family: sans-serif
 }
 
 #span1 {
-    color: yellowgreen;
+    color: rgb(39, 99, 99);
     font-weight: bold;
-    font-size: 48px;
+    font-size: 30px;
 }
 
 #span2 {
     font-style: italic;
-    text-decoration: line-through;
+    text-decoration: underline;
+}
+
+#span3 {
+background-color: #af8987;
+}
+
+#span4 {
+    background-color: #8db98d;
 }
