@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Rustic Fashion Palette */
+
+#palette-color-heading-1 {
+    color: red;
+    background-color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+/* Peach color */
+
+#palette-color-hue1 {
+    background-color: #f1bf98;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Nyanza color */
+
+#palette-color-hue2 {
+    background-color: #E1F4CB;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Sage color */
+
+#palette-color-hue3 {
+    background-color: #BACBA9;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#palette-text-sage {
+    color: #0a2414;
+}
+
+#palette-code-sage {
+    color: #0a2414;
+}
+
+/* Dim color */
+
+#palette-color-hue4 {
+    background-color: #717568;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#palette-text-dimray {
+    color: white;
+}
+
+#palette-code-dimray {
+    color: white;
+}
+
+/* Cream Cake Palellet */
+
+#palette-color-heading-2 {
+    color: #383e98;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* Vivid Sky Blue */
+
+#palette-text-vivid {
+    background-color: #23C9FF;
+    padding: 8px;
+    text-align: center;
+}
