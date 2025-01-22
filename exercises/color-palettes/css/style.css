@@ -68,7 +68,7 @@ body {
     color: white;
 }
 
-/* Cream Cake Palellet */
+/* Cream Cake Color Palellet */
 
 #palette-color-heading-2 {
     color: #383e98;
@@ -76,10 +76,75 @@ body {
     font-family: monospace;
 }
 
-/* Vivid Sky Blue */
+/* Vivid Sky Blue Color*/
 
-#palette-text-vivid {
+#palette-color-vivid- {
     background-color: #23C9FF;
     padding: 8px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Maya Color*/
+
+#palette-color-maya {
+    background-color: #7CC6FE;
+    padding: 8px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Periwinkle Color*/
+
+#palette-color-p- {
+    background-color: #CCD5FF;
+    padding: 8px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* Vivid Sky Blue Color*/
+
+#palette-color-pink- {
+    background-color: #E7BBE3;
+    padding: 8px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Artistic Vibe Color Palellet */
+
+#palette-color-heading-3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0a2414;
+}
+
+#palette-color-pen- {
+    text-align: center;
+    background-color: #0A1045;
+    color: rgb(171, 156, 206);
+    padding: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#palette-color-aureolin {
+    text-align: center;
+    background-color: #F9E900;
+    padding: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#palette-color-brown- {
+    padding: 8px;
+    background-color: #F6AF65;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#palette-color-cpink- {
+    background-color: #ED33B9;
+    text-align: center;
+    padding: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
