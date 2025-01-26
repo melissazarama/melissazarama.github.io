@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 30px ridge burlywood;
+    margin: 21px 30px;
+    padding: 23px 50px;
+    background-color: blanchedalmond;
+
+}
+
+p {
+    border: 20px solid blue;
+    margin: 50px;
+    padding: 45px 45px 45px 45px;
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
