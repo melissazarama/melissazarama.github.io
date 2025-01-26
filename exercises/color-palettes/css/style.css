@@ -20,8 +20,9 @@ body {
 
 #palette-color-hue1 {
     background-color: #f1bf98;
+    color: black;
     text-align: center;
-    padding: 8px;
+    padding: 24px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -29,7 +30,8 @@ body {
 
 #palette-color-hue2 {
     background-color: #E1F4CB;
-    padding: 8px;
+    color: black;
+    padding: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -38,19 +40,11 @@ body {
 
 #palette-color-hue3 {
     background-color: #BACBA9;
-    padding: 8px;
+    color: black;
+    padding: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
-#palette-text-sage {
-    color: #0a2414;
-}
-
-#palette-code-sage {
-    color: #0a2414;
-}
-
 /* Dim color */
 
 #palette-color-hue4 {
