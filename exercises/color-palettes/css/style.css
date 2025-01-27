@@ -20,8 +20,9 @@ body {
 
 #palette-color-hue1 {
     background-color: #f1bf98;
+    color: black;
     text-align: center;
-    padding: 8px;
+    padding: 24px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -29,7 +30,8 @@ body {
 
 #palette-color-hue2 {
     background-color: #E1F4CB;
-    padding: 8px;
+    color: black;
+    padding: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -38,33 +40,22 @@ body {
 
 #palette-color-hue3 {
     background-color: #BACBA9;
-    padding: 8px;
+    color: black;
+    padding: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-
-#palette-text-sage {
-    color: #0a2414;
-}
-
-#palette-code-sage {
-    color: #0a2414;
-}
-
 /* Dim color */
 
 #palette-color-hue4 {
     background-color: #717568;
-    padding: 8px;
+    padding: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
+#palette-code-dimray,
 #palette-text-dimray {
-    color: white;
-}
-
-#palette-code-dimray {
     color: white;
 }
 
@@ -80,7 +71,8 @@ body {
 
 #palette-color-vivid- {
     background-color: #23C9FF;
-    padding: 8px;
+    color: darkblue;
+    padding: 24px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -89,7 +81,8 @@ body {
 
 #palette-color-maya {
     background-color: #7CC6FE;
-    padding: 8px;
+    color: #191956;
+    padding: 24px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -98,7 +91,8 @@ body {
 
 #palette-color-p- {
     background-color: #CCD5FF;
-    padding: 8px;
+    color: #8e4853;
+    padding: 24px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -108,7 +102,8 @@ body {
 
 #palette-color-pink- {
     background-color: #E7BBE3;
-    padding: 8px;
+    color: #6e1e2b;
+    padding: 24px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -124,27 +119,30 @@ body {
 #palette-color-pen- {
     text-align: center;
     background-color: #0A1045;
-    color: rgb(171, 156, 206);
-    padding: 8px;
+    color: #ab9cce;
+    padding: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #palette-color-aureolin {
     text-align: center;
+    color: #42420b;
     background-color: #F9E900;
-    padding: 8px;
+    padding: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #palette-color-brown- {
-    padding: 8px;
+    padding: 24px;
     background-color: #F6AF65;
+    color: #300c0ca6;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #palette-color-cpink- {
     background-color: #ED33B9;
+    color: #370717;
     text-align: center;
-    padding: 8px;
+    padding: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
