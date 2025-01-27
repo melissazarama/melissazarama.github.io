@@ -6,3 +6,46 @@
 
     Good luck, and have fun!
 */
+* { 
+    box-sizing: border-box;
+}
+div.outer-frame-1 img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.outer-frame-1 {
+    width: 100px;
+    border: 5px inset beige;
+    padding: 10px;
+    background-color: bisque;
+    margin: 50px;
+    font-size: 5px;
+    text-align: center;
+    color: #522222;
+}
+
+div.outer-frame-1 span {
+    font-style: italic;
+}
+
+/* second */
+
+#outer-frame-00 {
+    border: 6px solid rgb(112, 42, 54);
+    background-color: #893543;
+    width: 100px;
+    margin-top: 20px;
+}
+
+div#outer-frame-2 img {
+    width: 100%;
+    border: 5px outset #9c535f;
+    padding: 10px;
+    background-color: rgb(156, 99, 108);
+    display: block;
+}
+
+#outer-frame-2 {
+    width: 100%;
+}
