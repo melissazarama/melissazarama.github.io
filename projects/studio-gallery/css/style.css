@@ -9,9 +9,13 @@
 * { 
     box-sizing: border-box;
 }
+
+/* First */
+
 div.outer-frame-1 img {
     width: 100%;
     border: 2px solid black;
+    box-shadow: -2px -2px 2px #0000001c;
 }
 
 .outer-frame-1 {
@@ -19,28 +23,37 @@ div.outer-frame-1 img {
     border: 5px inset beige;
     padding: 10px;
     background-color: bisque;
-    margin: 50px;
+    margin: 20px 70px 5px 0px;
     font-size: 5px;
     text-align: center;
     color: #522222;
+    
 }
 
 div.outer-frame-1 span {
     font-style: italic;
 }
 
+#outer-frame-1-1 img {
+    width: 100%;
+    border: 8px outset white;
+}
+#outer-frame-1-1 {
+    width: 70px;
+    margin-left: 20px;
+}
+
 /* second */
 
 #outer-frame-00 {
-    border: 6px solid rgb(112, 42, 54);
-    background-color: #893543;
+    border: 6px inset rgb(147, 25, 46);
     width: 100px;
     margin-top: 20px;
 }
 
 div#outer-frame-2 img {
     width: 100%;
-    border: 5px outset #9c535f;
+    border: 2px outset #9c535f;
     padding: 10px;
     background-color: rgb(156, 99, 108);
     display: block;
@@ -48,4 +61,53 @@ div#outer-frame-2 img {
 
 #outer-frame-2 {
     width: 100%;
+}
+
+#outer-frame-2-2 img {
+    width: 100%;
+    border: 10px inset black;
+}
+
+#outer-frame-2-2 {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#outer-frame-2-2-2 img {
+    width: 100%;
+    border: 5px inset rgb(199, 183, 152);
+    display: block;
+}
+
+#outer-frame-2-2-2 {
+    width: 60px;
+    border: 10px inset rgb(183, 164, 128);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Third */
+
+#outer-frame-3 img {
+    width: 100%;
+    border: 12px inset white;
+}
+
+#outer-frame-3 {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 120px;
+}
+
+#outer-frame-4 img {
+    width: 100%;
+    border: 10px ridge rgb(205, 150, 150);
+    padding: 8px;
+    background-color: white;
+}
+
+#outer-frame-4 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 70px;
 }
