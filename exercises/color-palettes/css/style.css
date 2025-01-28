@@ -52,10 +52,6 @@ body {
     padding: 24px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-}
-
-#palette-code-dimray,
-#palette-text-dimray {
     color: white;
 }
 
