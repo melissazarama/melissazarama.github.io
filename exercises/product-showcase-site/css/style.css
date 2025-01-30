@@ -24,6 +24,16 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+div.single-column1 a {
+    color: black;
+    border: 2px solid rgb(173, 66, 84);
+    background-color: #e3dddd;
+    border-radius: 30px 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .dark-container-1 {
     background-color: #e1e1e1;
 }
