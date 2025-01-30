@@ -32,6 +32,8 @@ div.single-column1 a {
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .dark-container-1 {
