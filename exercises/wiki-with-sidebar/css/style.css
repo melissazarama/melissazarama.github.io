@@ -12,8 +12,8 @@ body {
 }
 
 #sidebar-content {
-    width: 200px;
-    padding: 24px;
+    width: 400px;
+    padding: 24px 40px;
     background-color: rgb(245, 248, 250);
 }
 
@@ -49,4 +49,9 @@ body {
 #side-by-side {
     display: flex;
     align-items: flex-start;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding-left: 0;
 }
