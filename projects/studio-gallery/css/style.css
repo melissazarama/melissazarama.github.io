@@ -33,23 +33,14 @@ div.outer-frame-1 img {
 div.outer-frame-1 span {
     font-style: italic;
 }
-
-#outer-frame-1-1 img {
-    width: 100%;
-    border: 8px outsetsolid white;
-    border-radius: 50%;
-    border: 2px solid rgb(178, 119, 119);
     
-}
 #outer-frame-1-1 {
-    width: 70px;
-    margin-left: 20px;
+    width: 100px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 10px 10px;
     background-color: rgb(232, 207, 207);
     border: 5px inset pink;
-    
-   
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 /* second */
