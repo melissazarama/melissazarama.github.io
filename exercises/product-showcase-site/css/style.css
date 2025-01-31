@@ -11,9 +11,7 @@ body {
     width: 100%;
 }
 
-.single-column1,
-.single-column2,
-.single-column3 {
+.single-column1 {
     width: 50%;
     min-width: 500px;
     margin-left: auto;
@@ -44,15 +42,15 @@ div.single-column1 p span {
     font-weight: bold;
 }
 
-.single-column2 img {
+.light-container img {
     width: 100%;
 }
 
-.light-container-2 {
+.light-container {
     background-color: #e8e8e8 ;
 }
 
-div.single-column2 p span {
+div.light-container p span {
     font-weight: bold;
 }
 
