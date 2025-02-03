@@ -34,6 +34,22 @@ body {
     background-color: #e9dae7;
 }
 
+#main-content h4 span {
+    font-style: italic;
+    font-size: 12px;
+}
+
+#main-content h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+#main-content h1 {
+    margin-bottom: 0px;
+}
 .images {
     width: 100%;
     height: 300px;
