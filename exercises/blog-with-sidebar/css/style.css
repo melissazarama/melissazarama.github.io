@@ -5,13 +5,20 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(pink, white, pink)
 }
+
+#sticky-sidebar {
+    position: sticky;
+    top: 24px;
+}
+
 #grid-layout {
     display: grid;
     grid-template-columns: 1fr 800px 250px 1fr;
     grid-template-areas: ". content sidebar .";
     margin: 36px 0px;
-}
+} 
 
 #sidebar-content {
     grid-area: sidebar;
@@ -22,13 +29,16 @@ body {
 #main-content {
     grid-area: content;
     margin: 0px 36px;
+    border: 1px solid #c69ac0;
+    padding: 0px 12px;
+    background-color: #e9dae7;
 }
 
 .images {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    object-position: 40% 65%;
+    object-position: 40% 55%;
 }
 
 #sidebar-content h2 {
@@ -43,7 +53,7 @@ body {
     padding: 0px 12px;
     background-color: aliceblue;
     margin: 0px 0px 36px;
-    border: 1px solid lightpink;
+    border: 1px solid rgb(198, 154, 192);
 }
 
 #sidebar-content a {
@@ -53,7 +63,7 @@ body {
 
 #sidebar-content li {
     padding: 8px 0px;
-    border-bottom: 1px solid lightpink;
+    border-bottom: 1px solid rgb(198, 154, 192);
 }
 
 #sidebar-content li:last-child {
