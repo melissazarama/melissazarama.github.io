@@ -5,14 +5,15 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #151414;
 }
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 1fr 250px 700px 1fr;
     grid-template-areas: 
-        "header header"
-        "sidebar main";
+        ". header header ."
+        ". sidebar main .";
 }
 
 #header {
@@ -30,6 +31,9 @@ body {
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
+    padding: 25px 0px;
+    justify-content: center;
+    border-radius: 20px;
 }
 
 #header a {
@@ -37,7 +41,8 @@ body {
 }
 
 #header #me {
-    color: #111111;
+    color: white;
+    padding-right: 4px;
 }
 
 #header #tube {
@@ -56,7 +61,7 @@ body {
 
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;
+    color: #d6d3d3;
     display: block;
     padding: 12px
 }
@@ -65,21 +70,29 @@ body {
     margin-right: 8px;
 }
 #sidebar ul a:hover {
-    background-color: #EEEEEE;
+    background-color: white;
     border-radius: 12px;
+    color: black;
 
 }
 
 .metube-item {
-    flex: 250px;
+    width: 250px;
     margin-right: 12px;
     margin-bottom: 24px;
+    padding-right: 20px;
 }
 
 .metube-item .thumbnail-placeholder {
-    background:  radial-gradient(at top left, crimson, orange);
-    aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    /* aspect-ratio: 16 / 9; */
+    border-radius: 50%;
+}
+
+.thumbnail-placeholder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .metube-item h4 {
@@ -103,4 +116,12 @@ body {
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+
+.videos-details {
+    color: #a7a6a6;
+}
+
+.metube-item h4 a {
+    color: white;
 }
