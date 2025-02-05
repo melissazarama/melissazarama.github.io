@@ -5,17 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mebay Product Page</title>
         <link href="css/style.css" rel="stylesheet">
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
+        >
     </head>
     <body>
         <div id="grid-layout">
             <div id="header">
                 <p>
-                    <span>m</span><span>e</span><span>b</span><span>a</span><span>y</span>
+                    <span id="m">m</span><span id="e">e</span><span id="b">b</span><span id="a">a</span><span id="y">y</span>
                 </p>
             </div>
             <div id="exhibition">
                 <div class="image-frame">
-                    <img
+                    <img 
+                        id="image-with-border"
                         src="images/center.png"
                         alt="Center View Sunglasses"
                     >
@@ -38,64 +46,86 @@
                         alt="side View Sunglasses"
                     >
                 </div>
-                <div id="main-exhibition">
+            </div>
+            <div id="main-exhibition">
+                <div id="main-image-frame">
                     <img
                         src="images/center.png"
                         alt="Center View Sunglasses"
                     >
                 </div>
-                <div id="description-exhibition">
+            </div>
+            <div id="description-exhibition">
+                <div class="seller-container">
                     <h1>
                         PERSOL PO0714 95 31 Black Green
                         Pilot Men's Folding Sunglasses 54 mm
                     </h1>
-                    <div class="seller-container">
+                </div>
+                <div class="seller-container" id="flex">
+                    <div id="seller-img-frame">
+                        <a href="#">
+                            <img 
+                                src="images/seller-img.png"
+                                alt="Seller information"
+                            >
+                        </a>
+                    </div>
+                    <div class="seller-items" id="seller-name-feedback">
                         <div id="seller-name">
-                            <a href="#"> newbranditems </a>
-                            <span>(16525)</span>
+                            <a href="#" id="one"> newbranditems </a>
+                            <a href="#" id="two">(16525)</a>
                         </div>
                         <div id="seller-feedback">
-                            <span>99.3% positive</span>
-                            <span>seller's other items</span>
-                            <span>Contact seller</span>
-                        </div>
-                    <div i="seller-container">
-                        <div id="seller-price-details">
-                            <h2>US $252.00</h2>
-                        </div>
-                        <div id="before-price">
-                            <span>Was US $315.00</span><span>(20%off)</span>
-                            <a href="#">Price details</a>
-                        </div>
-                        <div id="paypal-credit">
-                            <p>
-                                No interest if paid in full in 6 months $149+ width
-                                <a href="#">PayPal Credit</a>
-                            </p>
+                            <a href="#">
+                                <span>99.3% positive</span>
+                            </a>
+                            <a href="#">
+                                <span>seller's other items</span>
+                            </a>
+                            <a href="#">
+                                <span>Contact seller</span>
+                            </a>
                         </div>
                     </div>
-                <div id="seller-container">
-                    <div id="seller-condition">
-                        <p>
-                            Condition: <span>New with tags</span>
-                        </p>
+                </div>
+                <div class="seller-container">
+                    <div id="seller-price-details">
+                        <h2>US $252.00</h2>
                     </div>
-                    <div id="sale-end">
-                        <p>
-                            Sale ends in: <span>1h 23m</span>
-                        </p>
+                    <div id="before-price">
+                        <span id="three">Was US $315.00</span>
+                        <span id="forth">(20%off)</span>
+                        <a href="#">Price details</a>
                     </div>
-                    <div id="quantity-item">
+                    <div id="paypal-credit">
                         <p>
-                            Quantity
-                            <div id="quantity-description">
-                                <span>1</span>
-                            </div>
-                            <span>3 available 3 sold</span>
+                            No interest if paid in full in 6 months $149+ width
+                            <a href="#">PayPal Credit</a>
                         </p>
                     </div>
                 </div>
-                <div class="buttons">
+                <div id="seller-condition">
+                    <p>
+                        Condition: <span>New with tags</span>
+                        <a href="#">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </a>
+                    </p>
+                </div>
+                <div id="sale-end">
+                    <p>
+                        Sale ends in: <span>1h 23m</span>
+                    </p>
+                </div>
+                <div id="quantity-item">
+                    <span>Quantity</span>
+                    <div id="quantity-description">
+                        <span id="five">1</span>
+                    </div>
+                    <span id="six">3 available 3 sold</span>
+                </div> 
+                <div class="buttons" id="button-blue">
                     <span>Buy It Now</span>
                 </div>
                 <div class="buttons">
@@ -105,14 +135,18 @@
                     <span>Add to Watchlist</span>
                 </div>
                 <div id="review-statists">
-                    <div class="people-opinion"
+                    <div class="people-opinion">
                         <p>
-                            <span>People want this.</span> 11 people are watching this
+                            <i class="fa-solid fa-bolt"></i>
+                            <span class="eight">People want this.</span> 
+                            <span>11 people are watching this</span>
                         </p>
                     </div>
-                    <div class="people-opinion"
+                    <div class="people-opinion">
                         <p>
-                            <span>People item.</span> 3 have already sold.
+                            <i class="fa-solid fa-bolt"></i>
+                            <span class="eight">People item.</span>
+                            <span> have already sold.</span>
                         </p>
                     </div>
                 </div>
