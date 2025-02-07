@@ -1,0 +1,95 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    border: 15px solid #debb2e;
+    background-color: #ebeb32;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 360px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 5px solid #debb2e;
+}
+
+.card-style-3 .pokemon-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-style-3 .pokemon-header h2 {
+    margin: 10px 0px 0px;
+}
+
+.pokemon-header .health i {
+    font-size: 20px;
+}
+
+.pokemon-header .health {
+    font-size: 20px;
+}
+
+.card-style-3 .details {
+    background: radial-gradient(
+        #debb2e,
+        #ebeb32,
+        #debb2e
+    );
+}
+
+.card-style-3 .details {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-style-3 .attack {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    flex: 1;
+
+    
+}
+
+.attack .description .bold {
+    font-weight: bold;
+}
+
+.attack .power {
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+.attack .energy {
+    padding-right: 10px;
+
+}
+
+.attack .description {
+    flex: 1;
+}
+
+.card-style-3 .data {
+    border: 2px solid #debb2e;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}

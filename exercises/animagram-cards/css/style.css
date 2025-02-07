@@ -12,7 +12,7 @@
     border-radius: 50px;
     max-width: 350px;
     margin: 10px;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -20,21 +20,42 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 8px 0px 25px;
 }
 
 .animagram-header .brand-name {
     font-size: 30px;
-    
 }
 
 .card-style-2 .profile-pic-container {
     border-radius: 50%;
     width: 200px;
-    object-position: center   ;
-
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .card-style-2 .profile-pic-container img {
     width: 100%;
     border-radius: 50%;
 }
 
+.card-style-2 p {
+    margin-bottom: 50px;
+
+    
+}
+
+.animagram-footer span i {
+    font-size: 23px;
+}
+
+.animagram-footer span {
+    font-size: 23px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+
+}
