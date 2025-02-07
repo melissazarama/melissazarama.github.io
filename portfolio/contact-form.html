@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Melissa Portfolio</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="layout">
+            <header>
+                <h1>Contact Us</h1>
+                <p>
+                    Got a question? 
+                    We'd love to hear from you. 
+                    Send us a message and we'll
+                    respond as soon as possible.
+                </p>
+            </header>
+            <main>
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/bgddxrza"
+                >
+                    <div>
+                        <label for="services_id">
+                            What service are you looking for?
+                        </label>
+                        <select id="services_id" name="service_selection">
+                            <option 
+                                id="default_option" 
+                                value="none" 
+                                disabled
+                                selected
+                            >
+                                Select the service you need
+                            </option>
+                            <option value="gardening">
+                                Nano Hair Strokes
+                            </option>
+                            <option value="coding">
+                                Ombre Powder Brows
+                            </option>
+                            <option value="web dev">
+                                Hybrid Brows
+                            </option>
+                            <option value="web dev">
+                                Pigment Removal
+                            </option>
+                            <option value="web dev">
+                                Ombre Lips
+                            </option>
+                            <option value="web dev">
+                                Full Color Lips 
+                            </option>
+                            <option value="web dev">
+                                Dark lip Naturalization
+                            </option>
+                            <option value="web dev">
+                                Full Eyeliner Design
+                            </option>
+                            <option value="web dev">
+                                Top or Bottom Eyeliner
+                            </option>
+                            <option value="web dev">
+                                Eyelash Enhacement Line
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name_id">Full name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. Rachel Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message us</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="I would like you to..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+        
+    </body>
+</html>
