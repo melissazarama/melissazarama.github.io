@@ -8,12 +8,20 @@
     </head>
     <body>
         <div id="layout">
+            <div id="left-column">
+                <img
+                    src="images/"
+                    alt="Micropigmentation Image"
+                >
+            <div>
+            <div id="right-column">
             <header>
                 <h1>Contact Us</h1>
                 <p>
-                    Got a question? 
-                    We'd love to hear from you. 
-                    Send us a message and we'll
+                    Tell us what you need help with.
+                </p>
+                <p>
+                    Send us a message and we will
                     respond as soon as possible.
                 </p>
             </header>
@@ -35,34 +43,34 @@
                             >
                                 Select the service you need
                             </option>
-                            <option value="gardening">
+                            <option value="nano">
                                 Nano Hair Strokes
                             </option>
-                            <option value="coding">
+                            <option value="ombre">
                                 Ombre Powder Brows
                             </option>
-                            <option value="web dev">
+                            <option value="hybrid">
                                 Hybrid Brows
                             </option>
-                            <option value="web dev">
+                            <option value="pigment-removal">
                                 Pigment Removal
                             </option>
-                            <option value="web dev">
+                            <option value="Ombre-lips">
                                 Ombre Lips
                             </option>
-                            <option value="web dev">
+                            <option value="Full-color-lip">
                                 Full Color Lips 
                             </option>
-                            <option value="web dev">
+                            <option value="dark-lip">
                                 Dark lip Naturalization
                             </option>
-                            <option value="web dev">
+                            <option value="full-eyeliner">
                                 Full Eyeliner Design
                             </option>
-                            <option value="web dev">
+                            <option value="top-botttom-eyeliner">
                                 Top or Bottom Eyeliner
                             </option>
-                            <option value="web dev">
+                            <option value="enhacement">
                                 Eyelash Enhacement Line
                             </option>
                         </select>
@@ -76,6 +84,16 @@
                             required 
                             minlength="2"
                             placeholder="E.g. Rachel Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="phone_number_id">Phone Number</label>
+                        <input 
+                            type="phone" 
+                            id="phone_number_id" 
+                            name="number"
+                            required
+                            placeholder="E.g. 000-000-000"
                         >
                     </div>
                     <div>
@@ -96,9 +114,45 @@
                             placeholder="I would like you to..."></textarea>
                     </div>
                     <div>
-                        <input type="submit" value="Send">
-                    </div>
-                </form>
+                        <div>
+                            <label for="services_id">
+                                How did you hear about us?
+                            </label>
+                            <select id="about_us_id" name="about_us">
+                                <option 
+                                    id="default_option" 
+                                    value="none" 
+                                    disabled
+                                    selected
+                                >
+                                    Please select
+                                </option>
+                                <option value="gardening">
+                                    Facebook
+                                </option>
+                                <option value="coding">
+                                    Instagram
+                                </option>
+                                <option value="web dev">
+                                    Google Maps
+                                </option>
+                                <option value="web dev">
+                                    Google
+                                </option>
+                                <option value="web dev">
+                                    Friend Referral
+                                </option>
+                                <option value="web dev">
+                                    TikTok 
+                                </option>
+                                <option value="web dev">
+                                    Other
+                                </option>
+                            </select>
+                        </div>
+                    <input type="submit" id="submit-button" value="Submit">
+                </div>
+            </form>
             </main>
         
     </body>
