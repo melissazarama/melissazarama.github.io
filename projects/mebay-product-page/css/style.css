@@ -28,6 +28,7 @@ body {
 
 #main-exhibition {
     grid-area: main;
+    margin: 0px 20px 0px;
 }
 
 #description-exhibition {
@@ -148,6 +149,10 @@ body {
     color: #111111;
 }
 
+#description-exhibition .seller-container h1 {
+    margin-top: 0px;
+}
+
 #seller-condition p span {
     font-weight: bold;
 }
@@ -203,4 +208,8 @@ body {
 
 .people-opinion .eight {
     font-weight: bold;
+}
+
+.people-opinion p i {
+    padding: 0px 4px 0px;
 }
