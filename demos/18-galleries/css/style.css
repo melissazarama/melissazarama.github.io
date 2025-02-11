@@ -48,3 +48,12 @@ body {
     flex: 1;
     object-fit: cover;
 }
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    
+}
