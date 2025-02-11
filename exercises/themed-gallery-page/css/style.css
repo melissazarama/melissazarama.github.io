@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: top right;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#hero #hero-content {
+    position: absolute;
+    right: 30%;
+    top: 25%;
+}
+
+#hero-content h2 {
+    font-size: 50px;
+}
+
+#hero-content h4 {
+    font-size: 22px;
+}
+
+#hero-content a {
+    font-size: 13px;
+    text-decoration: none;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    margin-right: 20px;
+}
+
+#layout {
+    max-width: 2000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#layout h1 {
+    margin-bottom: 5px;
+}
+
+#layout h3 {
+    text-decoration: underline;
+    margin-top: 0px;
+}
+.v-mansory-gallery {
+    columns: 4 auto;
+    column-gap: 10px;
+}
+
+.v-mansory-gallery img {
+    width: 100%;
+}
