@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* index.htlm */
+
+#hero-1 {
+    background-image: url(../images/shark.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hero-content {
+    position: absolute;
+    top: 30%;
+    right: 28%;
+}
+
+#hero-content h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#hero-content h4 {
+    color: white;
+    font-size: 20px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    color: #1f1616;
+    font-size: 12px;
+    background-color: white;
+    padding: 12px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* hero-2 */
+
+#hero-2 {
+    background-image: url(../images/tiger.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero-content-2  {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    width: 400px;
+}
+
+#hero-content-2 #title-center h2 {
+    color: rgb(188, 126, 40);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#hero-content-2 h4 {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#hero-content-2 a {
+    color: rgb(109, 85, 6);
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+#hero-content-2 #anchor-center {
+    text-align: center;
+}
+
+/* hero-3 */
+
+#hero-3 {
+    background-image: url(../images/dogs.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#hero-content-3 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+#hero-content-3 h2 {
+    font-size: 60px;
+    color: rgb(3, 32, 3);
+}
+
+#hero-content-3 h4 {
+    font-size: 30px;
+    color: rgb(193, 215, 193);
+}
+
+#hero-content-3 a {
+    text-decoration: none;
+    color: rgb(16, 42, 16);
+    background-color: rgb(234, 199, 133);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
