@@ -18,7 +18,7 @@ body {
 
 #hero #hero-content {
     position: absolute;
-    right: 30%;
+    left: 60%;
     top: 25%;
 }
 
@@ -31,6 +31,7 @@ body {
 }
 
 #hero-content a {
+    display: inline-block;
     font-size: 13px;
     text-decoration: none;
     background-color: black;
