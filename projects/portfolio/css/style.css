@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Kaushan+Script&family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Kaushan+Script&family=Shojumaru&family=Special+Elite&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,8 +9,140 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/black.jpg);
 }
+
+#navbar {
+    background-color: #954b23;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar img {
+    width: 100%;
+}
+
+#navbar a#logo {
+    margin-right: auto;
+    margin-left: 40px;
+    max-width: 100px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #c6c0c0;
+    padding: 10px;
+    margin: 0px 30px;
+}
+
+#navbar #navbar-selection {
+    display: flex;
+    align-items: center;
+}
+
+#navbar #navbar-selection a:hover {
+    text-decoration: underline;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.22);
+}
+
+#navbar .cta-buttom {
+    display: inline-block;
+    text-align: center;
+    background-color: #d8d6d6;
+    color: #333333;
+    padding: 10px 20px;
+    font-family: "Cabin Sketch", serif;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+#navbar .cta-buttom:hover {
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.34);
+    font-family: "Cabin Sketch", serif;
+    font-weight: 700;
+}
+
+/* Home Page */
+
+#hero-0 {
+    background: 
+        linear-gradient(#2a202075, #2a20209e),
+        url(../images/home-page-hero.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+#hero-container-0 {
+    text-align: center;
+    left: 25%;
+    top: 30%;
+    position: absolute;
+}
+
+#hero-container-0 h1 {
+    font-size: 97px;
+    color: #d8d6d6;
+    font-family: "Special Elite", serif;
+    font-weight: 400;
+}
+
+#hero-container-0 a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    background-color: #f5f5f5d3;
+    font-family: "Cabin Sketch", serif;
+}
+
+#hero-container-0 a:hover {
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.34);
+    font-family: "Cabin Sketch", serif;
+    font-weight: 700;
+}
+
+.horizontal-mansory-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+.horizontal-mansory-gallery img:hover {
+    transform: scale(1.5);
+    border: 5px solid #954b23;
+}
+
+.horizontal-mansory-gallery img {
+    height: 200px;
+    flex: 1;
+    object-fit: cover;
+    margin: 20px;
+}
+
+#side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 40px 40px 0px 0px;
+}
+
+#side-by-side .horizontal-mansory-gallery {
+    flex: 2;
+    border: 2px solid #954b23;
+    padding: 20px;
+}
+
+#side-by-side .text {
+    flex: 1;
+    font-size: 60px;
+    text-align:  center;
+    font-family: "Shojumaru", serif;
+}
+
+/* Gallery Webpage */
 
 #hero {
     background-image: url(../images/hero.jpg);
@@ -25,8 +158,8 @@ body {
     position: absolute;
     left: 55%;
     top: 27%;
-
 }
+
 #hero #hero-container h1 {
     font-family: "Fredericka the Great", serif;
     font-size: 97px;
@@ -67,15 +200,18 @@ body {
     gap: 30px;
     padding: 20px;
     gap: 50px;
+    border: 2px solid #954b23;
+    box-shadow: 2px 2px 10px #954b2391;
 }
 
 .basic-grid-gallery img {
     width: 100%;
+    border: 2px solid black;
+    padding: 5px;
 }
 
 #card-main-container {
-    background-color: black;
-    padding: 30px;
+    margin: 70px 0px;
 }
 
 .single-column {
@@ -87,16 +223,17 @@ body {
 }
 
 #card-main-container .single-column .card {
-    background-color: white;
     padding: 36px;
     width: 250px;
     text-align: center;
+    border: solid #954b23;
 }
 
 #card-main-container .single-column .card h3 {
     font-family: "Shojumaru", serif;
     margin-top: 0px;
     font-size: 20;
+    color: #333333;
 
 }
 
@@ -117,11 +254,12 @@ body {
 
 footer {
     text-align: center;
-    background-color: white;
+    background-color: #954b23;
     padding: 70px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 footer p {
     font-size: 12px;
+    color: white;
 }
