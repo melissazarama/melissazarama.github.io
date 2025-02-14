@@ -7,9 +7,19 @@ body {
     font-family: sans-serif;
 }
 
+.navbar {
+    display: flex;
+    padding: 20px;
+}
+
+.narbar .navbar-selection a {
+    color: black;
+}
 #layout {
     display: flex;
     justify-content: center;
+    margin: 0px auto;
+    max-width: 1200px;
 }
 
 #general-info-column {
