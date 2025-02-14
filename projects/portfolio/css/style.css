@@ -78,13 +78,13 @@ body {
 
 #hero-container-0 {
     text-align: center;
-    left: 25%;
+    left: 15%;
     top: 30%;
     position: absolute;
 }
 
 #hero-container-0 h1 {
-    font-size: 97px;
+    font-size: 70px;
     color: #d8d6d6;
     font-family: "Special Elite", serif;
     font-weight: 400;
@@ -114,6 +114,7 @@ body {
 .horizontal-mansory-gallery img:hover {
     transform: scale(1.5);
     border: 5px solid #954b23;
+    
 }
 
 .horizontal-mansory-gallery img {
@@ -121,6 +122,9 @@ body {
     flex: 1;
     object-fit: cover;
     margin: 20px;
+    transition:
+        transform 0.5s,
+        border    0.5s;
 }
 
 #side-by-side {
