@@ -10,7 +10,7 @@ body {
 #center-column {
     width: 90%vw;
     max-width: 800px;
-    margin: 48px auto;
+    margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
