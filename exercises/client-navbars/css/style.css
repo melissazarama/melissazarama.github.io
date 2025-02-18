@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +8,107 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+/* INDEX */
+
+#navbar-1 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(98, 163, 98);
+    padding: 25px;
+    border-bottom: 1px solid rgb(12, 150, 12);
+
+
+}
+
+#navbar-1 #logo-container-1 {
+    font-family: "Raleway", serif;
+    margin: auto;
+    font-size: 20px;
+    border-bottom: 1px solid green;
+    text-align: center;
+}
+
+#navbar-1 #logo-container-1:hover {
+    color: black;
+    text-shadow: none;
+}
+
+#navbar-1 a {
+    font-family: "Playfair Display", serif;
+    color: black;
+    text-decoration: none;
+    flex: 1;
+}
+
+#navbar-1 a:hover {
+    color: rgb(13, 83, 13);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.277)
+}
+
+/* CLIENT 2 */
+
+#navbar-2 {
+    background: linear-gradient(to bottom left, white, #92e5e5);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-2 #logo-container-2 {
+    margin: 0px 50px 0px 30px;
+}
+
+#navbar-2 #logo-container-2:hover {
+    text-decoration: none;
+}
+
+#logo-container-2 span#angel {
+    font-family: "Sour Gummy", serif;
+    font-size: 30px;
+}
+
+#logo-container-2 span#ear {
+    font-family: "Meow Script", serif;
+    font-size: 20px;
+}
+#navbar-2 a {
+    text-decoration: none;
+    color: #234851;
+    font-family: "Poiret One", serif;
+    font-weight: 800;
+}
+
+#navbar-2 a:hover {
+    text-decoration: underline;
+}
+
+#navbar-2 .cta-button-2:hover {
+    box-shadow: inset -4px -3px 5px -4px #b2d0dd;
+    text-decoration: none;
+}
+
+#navbar-2 .cta-button-2 {
+    margin: 0px 30px 0px 50px;
+    border: 1px solid #5ba9bd;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* CLIENT-3 */
+
+/* #header {
+    
+} */
+
+#header #navbar-top {
+    display: flex;
+    background-color: black;
+}
+
+#header #navbar-top h4 {
+    color: white;
 }
