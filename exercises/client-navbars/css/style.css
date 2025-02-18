@@ -12,9 +12,15 @@ body {
 
 /* INDEX */
 
+#layout-1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 #navbar-1 {
     display: flex;
     align-items: center;
+    justify-content:space-between;
     background-color: rgb(190, 227, 190);
     padding: 25px;
     border-bottom: 1px solid rgb(12, 150, 12);
@@ -24,9 +30,6 @@ body {
 
 #navbar-1 #logo-container-1 {
     font-family: "Ephesis", serif;
-    margin: auto;
-    font-size: 20px;
-    text-align: center;
     font-size: 30px;
 }
 
@@ -35,11 +38,14 @@ body {
     text-shadow: none;
 }
 
+#navbar-1 #hyperlinks a {
+    padding-right: 30px;
+}
+
 #navbar-1 a {
     font-family: "Gowun Dodum", serif;
     color: black;
     text-decoration: none;
-    flex: 1;
 }
 
 #navbar-1 a:hover {
@@ -100,13 +106,10 @@ body {
 
 /* CLIENT-3 */
 
-/* #header {
-    
-} */
-
 #header #navbar-top {
     display: flex;
     background-color: black;
+    justify-content: center;
 }
 
 #header #navbar-top h4 {
