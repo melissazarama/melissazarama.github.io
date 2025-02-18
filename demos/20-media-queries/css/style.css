@@ -97,7 +97,9 @@ body {
     }
 
     .image-container {
-        height: 100px;
+        height: 300px;
+        width: 100%;
+        flex: auto;
     }
 
     .content-container {

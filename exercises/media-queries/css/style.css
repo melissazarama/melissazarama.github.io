@@ -211,3 +211,42 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: bisque;
+    }
+    #nav {
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+    }
+
+    #hero h3 {
+        font-size: 25px;
+    }
+
+    #content-container .three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content-container .two-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two-cards .card {
+        margin: 0px 24px;
+    }
+
+    .two-cards .card h3 {
+        margin-top: 0px;
+    }
+
+    .two-cards .card:last-child {
+        padding: 0px;
+
+}
