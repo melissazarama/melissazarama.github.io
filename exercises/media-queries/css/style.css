@@ -213,11 +213,17 @@ a {
 /* TODO: Add your media query code here */
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: bisque;
-    }
     #nav {
         flex-direction: column;
+    }
+
+    #nav #nav-links {
+        gap: 30px;
+        padding-bottom: 8px;
+    }
+
+    #hero {
+        height: 300px;
     }
 
     #hero h1 {
@@ -238,8 +244,13 @@ a {
         flex-direction: column;
     }
 
+    .card {
+        margin-top: 0px;
+    }
+
     .two-cards .card {
         margin: 0px 24px;
+        margin-top: 0px;
     }
 
     .two-cards .card h3 {
@@ -248,5 +259,12 @@ a {
 
     .two-cards .card:last-child {
         padding: 0px;
+    }
+
+    .card a {
+        display: block;
+    }
+
+
 
 }

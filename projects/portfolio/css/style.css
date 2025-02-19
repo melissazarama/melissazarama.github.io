@@ -72,15 +72,15 @@ body {
     height: 90vh;
     background-size: cover;
     background-position: center;
-    position: relative;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-container-0 {
     text-align: center;
     left: 30%;
     top: 30%;
-    position: absolute;
 }
 
 #hero-container-0 h1 {

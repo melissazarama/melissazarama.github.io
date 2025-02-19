@@ -134,12 +134,18 @@ body {
     font-size: 25px;
 }
 
+#header #navbar-middle #logo-container:hover {
+    text-decoration: none;
+}
 #header #navbar-middle a {
     color: black;
     text-decoration: none;
     padding: 10px;
     font-family: "Yatra One", serif;
-    
+}
+
+#header #navbar-middle a:hover {
+    text-decoration: underline;
 }
 
 #header #navbar-middle .cta-button-3 {
@@ -148,10 +154,19 @@ body {
     border-radius: 20px;
 }
 
+#header #navbar-middle .cta-button-3:hover {
+    box-shadow: 2px 2px 10px #4e4c4c64;
+    text-decoration: none;
+}
+
 #header #navbar-bottom {
     background-color: orange;
     display: flex;
     justify-content: space-evenly;
+}
+
+#header #navbar-bottom a:hover {
+    text-decoration: underline;
 }
 
 #header #navbar-bottom a {
