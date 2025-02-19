@@ -264,7 +264,7 @@ body {
 }
 
 #card-3 {
-    margin-right: 12px;
+    margin-right: 0px;
     padding-left: 0px;
 }
 
@@ -366,7 +366,6 @@ body {
     Blog (Main) Styling
 **************************************************************/
 #main {
-    margin-right: 12px;
     padding: 8px;
     height: 100%;
 }
