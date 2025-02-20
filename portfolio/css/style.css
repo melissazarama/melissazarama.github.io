@@ -7,6 +7,8 @@ body {
     font-family: sans-serif;
 }
 
+/* NAVBAR */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -35,39 +37,83 @@ body {
     border-radius: 20px;
 }
 
+/* CONTACT US */
+
 #layout {
     display: flex;
     justify-content: center;
     margin: 0px auto;
     max-width: 1200px;
-    gap: 30px;
 }
 
-#general-info-column {
-    margin: 0px auto;
-    flex: 1;
-    order: 2;
+#contact-column header {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-#contact-column {
-    flex: 2;
-    order: 1;
+#contact-column header #logo-container-contact-us {
+    width: 80px;
+}
+
+ #contact-column header img {
+    width: 100%;
+}
+
+header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 20px;
+    align-items: center;
+}
+
+header p {
+    margin-top: 0px;
+}
+
+ header p#txt1 {
+    margin-bottom: 0px;
+ }
+
+header h1 {
+    margin-bottom: 20px;
 }
 
 form {
-    padding: 26px
+    background-color: white;
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
 }
 
-label {
-    margin: 20px 0px;
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #0e6de1;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    min-width: 75px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
