@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&family=Kaushan+Script&family=Shojumaru&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -31,6 +31,7 @@ body {
     color: #c6c0c0;
     padding: 10px;
     margin: 0px 30px;
+    font-family: "STIX Two Text", serif;
 }
 
 #navbar #navbar-selection {
@@ -83,7 +84,7 @@ body {
 #hero-container-0 h1 {
     font-size: 90px;
     color: #d8d6d6;
-    font-family: "Fredericka the Great", serif;
+    font-family: "Bowlby One SC", serif;
 }
 
 #hero-container-0 a {
@@ -92,7 +93,7 @@ body {
     color: black;
     padding: 12px;
     background-color: #f5f5f5d3;
-    font-family: "Cabin Sketch", serif;
+    font-family: "STIX Two Text", serif;
 }
 
 #hero-container-0 a:hover {
@@ -139,7 +140,7 @@ body {
     flex: 1;
     font-size: 60px;
     text-align:  center;
-    font-family: "Shojumaru", serif;
+    font-family: "Caudex", serif;
 }
 
 /* Gallery Webpage */
@@ -161,7 +162,7 @@ body {
 }
 
 #hero #hero-container h1 {
-    font-family: "Fredericka the Great", serif;
+    font-family: "Bowlby One SC", serif;
     font-size: 97px;
     color: #d8d6d6;
     margin-bottom: 20px;
@@ -173,7 +174,7 @@ body {
     color: black;
     padding: 12px;
     background-color: #f5f5f5d3;
-    font-family: "Cabin Sketch", serif;
+    font-family: "STIX Two Text", serif;
 }
 
 #hero #hero-container a:hover {
@@ -191,7 +192,7 @@ body {
 }
 
 #layout h1 {
-    font-family: "Shojumaru", serif;
+    font-family: "Caudex", serif;
 }
 
 .basic-grid-gallery {
@@ -230,7 +231,7 @@ body {
 }
 
 #card-main-container .single-column .card h3 {
-    font-family: "Shojumaru", serif;
+    font-family: "Caudex", serif;
     margin-top: 0px;
     font-size: 20;
     color: #333333;
@@ -244,6 +245,7 @@ body {
     background-color: #e4e0e0;
     padding: 10px;
     font-size: 14px;
+    font-family: "STIX Two Text", serif;
 }
 
 #card-main-container .single-column .card a:hover {
