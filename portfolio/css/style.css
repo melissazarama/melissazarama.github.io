@@ -43,7 +43,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0px auto;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 #contact-column header {
@@ -52,6 +52,10 @@ body {
 
 #contact-column header #logo-container-contact-us {
     width: 80px;
+}
+
+#logo-container-contact-us {
+    margin-top: 15px;
 }
 
  #contact-column header img {
@@ -78,13 +82,13 @@ header h1 {
 
 form {
     background-color: white;
-    padding: 36px;
+    padding: 30px;
     border: 2px solid #CCCCCC;
     border-radius: 2px;
 }
 
 form div label {
-    display: block;
+    display: inline-block;
     margin-bottom: 8px;
     font-weight: bold;
 }
