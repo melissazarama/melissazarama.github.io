@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Cherry+Bomb+One&family=Englebert&family=Playwrite+TZ:wght@100..400&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -6,16 +7,192 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+a {
+    font-family: "Atkinson Hyperlegible Next", serif;
+}
 
 #nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px 20px 10px;
-    background-color: rgb(196, 170, 22);
+    background-color: #cb97cb;
+    padding: 0px 20px;
 }
 
 #nav a {
     color: rgb(59, 46, 46);
     text-decoration: none;
-    padding-left: 20px;
+    padding: 20px 50px 20px 10px;
+    display: inline-block;
 }
+
+#nav #logo-container span#adopt {
+    font-family: "Cherry Bomb One", serif;
+    font-size: 35px;
+}
+
+#nav #logo-container span#plz {
+    font-family: "Playwrite TZ", serif;
+    font-size: 20px;
+}
+
+#nav #logo-container {
+    margin-right: auto;
+    color: rgb(93, 76, 113);
+    padding: 0px 0px 0px 0px;
+}
+
+#hero {
+    background-image: url(../images/hero3.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#hero-content {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    width: 800px;
+    text-align: center;
+}
+
+#hero-content a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #cb97cb;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    transition: 
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#hero-content a:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.398);
+    transform: translate(2px);
+    background-color: #ede2e4;
+}
+
+#hero-content h1 {
+    font-size: 70px;
+    font-family: "Englebert", serif;
+    line-height: 80px;
+}
+
+#dropdown-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.dropdown-container {
+    position: relative;
+    z-index: 10;
+}
+
+.dropdown-container .dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #ede2e4;
+    min-width: 100px;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-container .dropdown-menu a {
+    width: 100%;
+    transition:
+        box-shadow 0.25s;
+}
+
+
+#nav .dropdown-container .dropdown-menu a:hover {
+    border: 1px solid #cb97cb;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.531);
+}
+
+/* ASTRO */
+
+#card-gallery-1 .card {
+    min-width: 700px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#card-gallery-1 #card1 {
+    background-image: url(../images/cosmo1.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card-gallery-1 #card1 .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#card-gallery-1 #card1 .card-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #ede2e4;
+    border: 1px solid #cb97cb;
+    border: 30px;
+    padding: 20px;
+}
+
+#card1 .card-front,
+#card1 .card-back {
+    padding: 20px;
+}
+
+#card1 .card-front {
+    transition: transform 0.25s;
+}
+
+#card1 .card-back {
+    transition: transform 0.25s;
+}
+
+#card1:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card1 .card-back {
+    transform: scaleX(0);
+    text-align: center;
+}
+
+#card1:hover .card-back {
+    transform: scaleX(1);
+}
+
+#card6:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card6:hover .card-back {
+    transform: scaleX(1);
+}
+
+#card1:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+
