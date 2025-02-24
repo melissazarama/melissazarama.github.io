@@ -11,6 +11,10 @@ a {
     font-family: "Atkinson Hyperlegible Next", serif;
 }
 
+.background {
+    background-image: url(../images/dog-paw-pattern.avif);
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -116,7 +120,6 @@ a {
         box-shadow 0.25s;
 }
 
-
 #nav .dropdown-container .dropdown-menu a:hover {
     border: 1px solid #cb97cb;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.531);
@@ -148,17 +151,21 @@ a {
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    background-color: #cb97cb;
+    border: 1px solid #cb97cb;
 }
 #card-gallery-1 #card1 .card-content a:hover {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.391);
     transform: translateY(3px);
 }
 
+/* #card-gallery-1 .card-1 .card-back:hover a {
+    transform: rotate(5deg);
+} */
+
 #card1 .card-front,
 #card1 .card-back {
     padding: 10px;
-    border: 5px solid purple;
+    border: 5px solid #804400;
     border-radius: 20px;
 }
 
@@ -178,6 +185,7 @@ a {
     transform: scaleX(0);
     text-align: center;
     padding: 30px;
+    background-color: #804400;
 }
 
 #card1:hover .card-front {
@@ -189,33 +197,62 @@ a {
     transform: scaleX(1);
 }
 
-/* COSMO */
+/* SALOMON */
 
-#card-gallery-2 .card-2 {
-    min-width: 200px;
-    max-width: 300px;
-    margin: 0px auto;
-}
-
-#card-gallery-2 #card-2 img {
-    width: 100%;
-}
-
-#card-1 .image-container {
-    width: 50px;
-}
 #card-gallery-2 #card2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-/* START */
+#card-gallery-2 .card-2 {
+
+    max-width: 400px;
+    min-width: 300px;
+    margin: 50px auto;
+    background-color: #d3c959;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-2 .image-container {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.card-2 .image-container img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#card-gallery-2 .card-2 .cards-content a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #cb97cb;
+    display: inline-block;
+    transition: 
+        box-shadow 0.50s;
+}
+
+#card-gallery-2 .card-2 .cards-content a:hover {
+    box-shadow: 4px 4px 10px #00000037;
+}
+
+#card-gallery-2 .card-2:hover a {
+    transform: rotate(5deg);
+}
+
+
+/* STAR */
 
 #card-gallery-3 .card-3 {
     max-width: 400px;
     min-width: 300px;
     margin: 50px auto;
-    background-color: rgba(211, 201, 89, 0.523);
+    background-color: #59d39e;
     padding: 20px;
     border-radius: 20px;
     transition: 
