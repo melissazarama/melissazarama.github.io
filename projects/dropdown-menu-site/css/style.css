@@ -271,7 +271,7 @@ a {
 #card-gallery-1 .card-1 .container-2 {
     position: absolute;
     z-index: 0;
-    left: 37px;
+    left: 20px;
     top: 120px;
     opacity: 0;
     transition: 
@@ -441,7 +441,7 @@ a {
     opacity: 1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1028px) {
     body {
         background-color: #30afd9;
     }
