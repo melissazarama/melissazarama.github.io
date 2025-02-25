@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Cherry+Bomb+One&family=Englebert&family=Playwrite+TZ:wght@100..400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Cherry+Bomb+One&family=Englebert&family=Playwrite+TZ:wght@100..400&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -20,6 +20,8 @@ a {
     justify-content: space-between;
     background-color: #cb97cb;
     padding: 0px 20px;
+    position: sticky;
+    top: 0px;
 }
 
 #nav a {
@@ -131,7 +133,6 @@ a {
     line-height: 80px;
 }
 
-
 /* VOLUNTEER */
 
 #background-astro {
@@ -193,7 +194,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 #card0:hover .card-front {
@@ -308,7 +309,7 @@ a {
     margin-top: 0px;
 }
 
-.card-2 img{
+.card-2 img {
     width: 300px;
     height: 400px;
     object-fit: cover;
@@ -435,6 +436,8 @@ a {
         background-color: #30afd9;
     }
     
+    /* NAVBAR */
+
     #nav .dropdown-container i {
         display: none;
     }
@@ -462,7 +465,7 @@ a {
     }
 
     #dropdown-main-container .dropdown-container .dropdown-menu a {
-        padding: 10px;
+        font-size: 14px;
     }
 
     #nav  .dropdown-container .dropdown-menu a:hover {
@@ -473,6 +476,7 @@ a {
     #nav #dropdown-main-container {
         flex-direction: column;
         align-items: stretch;
+        font-size: 15x;
     }
 
     #dropdown-main-container > a {
@@ -482,7 +486,6 @@ a {
     #dropdown-main-container .dropdown-container {
         border-bottom: 1px solid purple ;
         border-top: 1px solid purple;
-
     }
 
     /* HERO */
@@ -490,6 +493,10 @@ a {
     #hero #hero-content {
         position: static;
         width: auto;
+    }
+
+    #hero #hero-content a {
+        background-color: #ede2e4;
     }
 
     #hero #hero-content h1 {
@@ -508,8 +515,16 @@ a {
         box-shadow: none;
     }
 
-    #hero #hero-content a {
+    #card-gallery-1 .card-1:hover .container-2 {
+        opacity: 0;
+    }
 
+    #card-gallery-2 .card-2:hover .container-2 {
+        opacity: 0;
+    }
+
+    #card-gallery-3 .card-3:hover .container-2 {
+        opacity: 0;
     }
 
     /* VOLUNTEER */
