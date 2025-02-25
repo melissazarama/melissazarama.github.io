@@ -156,6 +156,15 @@ a {
     border: 1px solid #cb97cb;
     border-radius: 20px;
 }
+
+#card-gallery-0 #card0 .card-content h2 {
+    color: rgb(243, 240, 240);
+}
+
+#card-gallery-0 #card0 .card-content p {
+    color: #dbd0d3;
+}
+
 #card-gallery-0 #card0 .card-content a:hover {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.391);
     transform: translateY(3px);
@@ -163,6 +172,7 @@ a {
 
 #card-gallery-0 .card .card-back:hover a {
     transform: rotate(5deg);
+    background-color: white;
 }
 
 #card0 .card-front,
