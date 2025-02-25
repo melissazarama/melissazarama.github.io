@@ -28,7 +28,7 @@ a {
 #nav a {
     color: rgb(59, 46, 46);
     text-decoration: none;
-    padding: 20px 50px 20px 10px;
+    padding: 20px 0px;
     display: inline-block;
 }
 
@@ -443,12 +443,9 @@ a {
 }
 
 @media screen and (max-width: 1205px) {
-    body {
-        background-color: #30afd9;
-    }
-    
-    /* NAVBAR */
 
+    /* NAVBAR */
+    
     #nav .dropdown-container i {
         display: none;
     }
@@ -472,7 +469,7 @@ a {
         visibility: visible;
         background-color: #cb97cb;
         min-width: 100px;
-        padding-left: 20px;
+        padding-left: 0;
     }
 
     #dropdown-main-container .dropdown-container .dropdown-menu a {
