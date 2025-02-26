@@ -6,14 +6,15 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/dog-paw-pattern.avif);
 }
 a {
     font-family: "Atkinson Hyperlegible Next", serif;
 }
 
-.background {
+/* .background {
     background-image: url(../images/dog-paw-pattern.avif);
-}
+} */
 
 #nav {
     display: flex;
@@ -516,7 +517,7 @@ a {
     }
 
     #hero #hero-content h1 {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 40px;
     }
 
