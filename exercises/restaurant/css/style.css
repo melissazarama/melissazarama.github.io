@@ -54,7 +54,7 @@ body {
 #nav-middle #nav-middle-hyperlinks {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 80px;
 }
 
 #nav-middle #nav-middle-hyperlinks a:hover {
@@ -70,10 +70,47 @@ body {
     transition: color 0.50s;
 }
 
-#nav-middle #logo-main-container a {
+#nav-middle #top #cta-button-middle-nav #cta-button {
     color: black;
     text-decoration: none;
     display: inline-block;
+    background-color: #FBB040;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+#nav-middle #top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#top #empty-container {
+    flex: 1;
+}
+
+#nav-middle #top #cta-button-middle-nav {
+    margin-right: 15px;
+    flex: 1;
+    text-align: right;
+}
+
+#nav-middle #top #cta-button-middle-nav a i {
+    color: #FBB040;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.449);
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.25s;
+}
+
+#nav-middle #top #cta-button-middle-nav a i:hover {
+    color: #FBB040;
+    transform: translateY(2px);
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 #nav-middle #logo-main-container a#cta-button {
@@ -87,7 +124,7 @@ body {
         transform 0.25s;
 }
 
-#nav-middle #logo-main-container a#cta-button:hover {
+#nav-middle #top a#cta-button:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.414);
     transform: translateY(2px);
 }
@@ -293,4 +330,123 @@ body {
     color: black;
     text-decoration: none;
     text-align: center;
+}
+
+/* FEATURE DISH */
+
+#menu-container .title {
+    padding: 50px;
+}
+
+#menu-container .title h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#main-section-menu {
+    padding: 58px;
+    /* background: linear-gradient(to top, #f9c87d, #f7b24b, #FBB040); */
+    background-image: url(../images/veteran-day.jpg);
+    background-size: cover;
+}
+
+#main-section-menu .single-column {
+    background-color: rgba(249, 239, 239, 0.949);
+    padding: 20px 40px 20px 45px;
+    border-radius: 18px;
+}
+
+#main-section-menu .text-container h3 {
+    font-size: 18px;
+}
+
+
+#main-section-menu .text-container {
+    text-align: center;
+    padding-right: 20px;
+    border-radius: 18px;
+}
+
+#main-section-menu .text-container h1 {
+    border-bottom: 1px solid black;
+}
+
+#main-section-menu .text-container p span {
+    text-decoration: line-through;
+}
+
+#main-section-menu .text-container p#discount-length {
+    font-size: 12px;
+    color: #333333;
+}
+
+/* MENU ITEMS */
+
+#menu-items-container {
+    margin-top: 50px;
+}
+
+#appetizers-container h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+}
+
+#appetizers-container {
+    max-width: 1500px;
+    margin: 48px auto;
+}
+
+#appetizers-container .basic-grid-gallery-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#appetizers-container .basic-grid-gallery-menu .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+#appetizers-container .basic-grid-gallery-menu .card p.card-paragraph {
+    height: 80px;
+}
+
+#appetizers-container .basic-grid-gallery-menu .card {
+    border: 2px solid #CE2127;
+    padding: 15px;
+    border-radius: 18px;
+}
+
+#appetizers-container .basic-grid-gallery-menu .card a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #CE2127;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    width: 100%;
+    text-align: center;
+    transition: 
+        box-shadow 0.25s,
+        transform 0.25s;
+}
+
+#appetizers-container .basic-grid-gallery-menu .card a:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.386);
+    transform: translateY(4px);
+}
+
+#appetizers-container .basic-grid-gallery-menu .title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#appetizers-container .basic-grid-gallery-menu .title-price p {
+    font-size: 14px;
 }
