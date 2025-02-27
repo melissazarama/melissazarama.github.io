@@ -382,6 +382,8 @@ body {
 
 /* MENU ITEMS */
 
+/* APPETIZERS */
+
 #menu-items-container {
     margin-top: 50px;
 }
@@ -448,5 +450,68 @@ body {
 }
 
 #appetizers-container .basic-grid-gallery-menu .title-price p {
+    font-size: 14px;
+}
+
+/* ENTREES */
+
+#entrees-container h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+}
+
+#entrees-container {
+    max-width: 1500px;
+    margin: 48px auto;
+}
+
+#entrees-container .basic-grid-gallery-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#entrees-container .basic-grid-gallery-menu .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+#entrees-container .basic-grid-gallery-menu .card {
+    border: 2px solid #CE2127;
+    padding: 15px;
+    border-radius: 18px;
+}
+
+#entrees-container .basic-grid-gallery-menu .card a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #CE2127;
+    color: white;
+    padding: 10px;
+    border-radius: 18px;
+    width: 100%;
+    text-align: center;
+    transition: 
+        box-shadow 0.25s,
+        transform 0.25s;
+}
+
+#entrees-container .basic-grid-gallery-menu .card a:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.386);
+    transform: translateY(4px);
+}
+
+#entrees-container .basic-grid-gallery-menu .title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#entrees-container .basic-grid-gallery-menu .title-price p {
     font-size: 14px;
 }
