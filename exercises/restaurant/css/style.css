@@ -345,7 +345,6 @@ body {
 
 #main-section-menu {
     padding: 58px;
-    /* background: linear-gradient(to top, #f9c87d, #f7b24b, #FBB040); */
     background-image: url(../images/veteran-day.jpg);
     background-size: cover;
 }
@@ -359,7 +358,6 @@ body {
 #main-section-menu .text-container h3 {
     font-size: 18px;
 }
-
 
 #main-section-menu .text-container {
     text-align: center;
@@ -514,4 +512,8 @@ body {
 
 #entrees-container .basic-grid-gallery-menu .title-price p {
     font-size: 14px;
+}
+
+#entrees-container .basic-grid-gallery-menu .card p.card-paragraph {
+    height: 80px;
 }
