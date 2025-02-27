@@ -672,20 +672,20 @@ body {
         font-size: 32px;
     }
 
-    /* #inner-hero-content #cta-button-container #cta-button-hero-order,
-    #inner-hero-content #cta-button-container #cta-button-hero-reserve, {
-        gap: 30px;
-        font-size: 20px;
-    } */
-
     #inner-hero-content #cta-button-container {
         display: flex;
         gap: 18px;
         align-items: center;
     }
+
+    #hero-container #inner-hero-content {
+        border: 2px solid #CE2127;
+        padding: 15px;
+        border-radius: 8px;
+    }
     
     #inner-hero-content #cta-button-container a {
-        padding: 15px;
+        padding: 10px;
         font-size: 15px;
     }
 
