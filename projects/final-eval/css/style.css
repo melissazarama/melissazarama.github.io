@@ -1,5 +1,5 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Protest+Strike&display=swap');
 </style>
 
 * {
@@ -26,10 +26,11 @@ body {
 
 #header h3 {
     margin-bottom: 0px;
+    font-family: "New Amsterdam", serif;
 }
 
 #header h1 {
-    font-size: 55px;
+    font-size: 60px;
     margin: 0px;
     font-family: "Protest Strike", serif;
 }
@@ -37,6 +38,7 @@ body {
 #header h2 {
     margin-top: 0px;
     margin-bottom: 50px;
+    font-family: "New Amsterdam", serif;
 }
 
 #oponents-container {
@@ -89,6 +91,11 @@ body {
     margin-bottom: 15px;
     font-family: "Protest Strike", serif;
 }
+
+#party-details h3 {
+    font-family: "New Amsterdam", serif;
+}
+
 #party-details #cta-buttons {
     display: flex;
     justify-content: center;
@@ -122,4 +129,20 @@ body {
 
 #party-details #join-us {
     margin-top: 5px;
+}
+
+@media screen and (max-width: 975px) {
+
+    #oponents-container #individial-oponents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #oponents-container #individial-oponents #vs {
+        font-size: 30px;
+        text-align: center;
+        flex: 1;
+        padding: 0px;
+    }
 }
