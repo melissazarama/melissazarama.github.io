@@ -5,13 +5,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: aliceblue;
+    background: linear-gradient(to bottom, #7ac9e1, #906490);
 }
 
 #single-column-layout {
     max-width: 1000px;
     margin: 48px auto;
-    background-color: #8aadcc;
+    background: linear-gradient(to bottom, #7ac9e1,  rgb(226, 147, 226),#906490 );
 }
 
 
@@ -46,7 +46,7 @@ body {
 #oponents-container #individial-oponents .individual-1 {
     flex: 2;
     text-align: center;
-    border: 1px solid #627c92;
+    border: 1px solid #906490;
     border-radius: 10px;
     padding: 20px;
 }
@@ -55,6 +55,7 @@ body {
     font-size: 40px;
     text-align: center;
     flex: 1;
+    padding: 10px;
 }
 
 #oponents-container .individual-1 img {
@@ -71,6 +72,7 @@ body {
 
 #oponents-container .individual-1 h3 {
     margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 #party-details {
