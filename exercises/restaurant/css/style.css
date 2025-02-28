@@ -270,7 +270,6 @@ body {
 
 #main-section {
     padding: 58px;
-    background: linear-gradient(to top, #f9c87d, #f7b24b, #FBB040);
 }
 
 .side-by-side .image-container img {
@@ -404,6 +403,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin: 0px 30px;
 }
 
 #appetizers-container .basic-grid-gallery-menu .card img {
@@ -471,6 +471,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin: 0px 30px;
 }
 
 #entrees-container .basic-grid-gallery-menu .card img {
@@ -538,6 +539,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    margin: 0px 30px;
 }
 
 #desserts-container .basic-grid-gallery-menu .card img {
@@ -669,24 +671,28 @@ body {
     /* HERO */
 
     #hero-container #inner-hero-content h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     #inner-hero-content #cta-button-container {
         display: flex;
-        gap: 18px;
+        gap: 12px;
         align-items: center;
     }
 
     #hero-container #inner-hero-content {
         border: 2px solid #CE2127;
-        padding: 15px;
+        padding: 12px;
         border-radius: 8px;
     }
     
     #inner-hero-content #cta-button-container a {
         padding: 10px;
         font-size: 15px;
+    }
+
+    #outer-hero-content {
+        padding: 10px;
     }
 
     /* SIDE BY SIDE CONTENT */
@@ -704,15 +710,122 @@ body {
 
     .side-by-side .text-container {
         order: 2;
+        padding: 8px 0px 8px 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
     }
 
     .side-by-side .text-container h3 {
-        margin-top: 0px;
+        margin: 0px;
+        font-size: 30px;
     }
 
     .side-by-side .image-container img {
         width: 400px;
         height: 400px;
     }
+
+    /* MENU */
+    /* FEATURE DISH */
+
+    #menu-container .title h1 {
+        font-size: 32px;
+    }
+
+    .side-by-side .image-container img {
+        width: 280px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 18px;
+    }
+
+    
+    #main-section-menu .text-container h3 {
+        font-size: 14px;
+    }
+
+    #main-section-menu .text-container h1 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    #main-section-menu .text-container p {
+        font-size: 13px;
+    }
+
+    .side-by-side {
+        display: flex;
+        align-items: center;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .side-by-side .text-container a {
+        font-size: 12px;
+    }
+
+    /* APPETIZERS */
+
+    #appetizers-container h2 {
+        font-size: 25px;
+        padding: 50px;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu .card img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu {
+        display: grid;
+        grid-template-areas: 
+            "one one one one"
+            "two two two two"
+            "three three three three"
+            "fourth fourth fourth fourth";
+        gap: 10px;
+        text-align: center;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu #one {
+        grid-area: one;
+    }
+    
+    #appetizers-container .basic-grid-gallery-menu #two {
+        grid-area: two;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu #three {
+        grid-area: three;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu #fourth {
+        grid-area: fourth;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu .card {
+        border: 1px solid #CE2127;
+        padding: 10px;
+        border-radius: 18px;
+        margin: 0px 25px;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu .title-price {
+        flex-direction: column;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu .title-price h3 {
+        margin: 8px 0px 0px 0px;
+    }
+
+    #appetizers-container .basic-grid-gallery-menu .title-price p {
+        margin: 2px 0px 0px 0px;
+    }
+
+
+
+
+
+
 
 }
