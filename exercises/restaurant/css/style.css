@@ -666,6 +666,10 @@ body {
         border-bottom: 1px solid #FBB040;
     }
 
+    #nav-bottom a {
+        font-size: 14px;
+    }
+
     /* HERO */
 
     #hero-container #inner-hero-content h1 {
