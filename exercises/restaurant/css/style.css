@@ -815,7 +815,19 @@ body {
         width: 350px;
     }
 
-    /* ENTREES */
+    #entrees-container .basic-grid-gallery-menu .title-price {
+        flex-direction: column;
+    }
+
+    #entrees-container .basic-grid-gallery-menu .title-price h3 {
+        margin: 8px 0px 0px 0px;
+    }
+
+    #entrees-container .basic-grid-gallery-menu .title-price p {
+        margin: 2px 0px 0px 0px;
+    }
+
+    /* DESSERTS */
 
     #desserts-container .basic-grid-gallery-menu {
         display: flex;
@@ -830,14 +842,21 @@ body {
         border-radius: 18px;
         margin: 0 auto;
     }
-
-    #entrees-container .basic-grid-gallery-menu .card img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 18px;
-    }
     
+    #desserts-container .basic-grid-gallery-menu .title-price {
+        flex-direction: column;
+    }
 
+    #desserts-container .basic-grid-gallery-menu .title-price h3 {
+        margin: 8px 0px 0px 0px;
+    }
+
+    #desserts-container .basic-grid-gallery-menu .title-price p {
+        margin: 2px 0px 0px 0px;
+    }
+
+    #desserts-container .basic-grid-gallery-menu .card {
+        text-align: center;
+    }
 
 }
