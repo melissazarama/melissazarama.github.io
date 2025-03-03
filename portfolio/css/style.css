@@ -9,23 +9,48 @@ body {
 
 /* NAVBAR */
 
+#navbar {
+    position: sticky;
+}
+
+/* TOP */
+
 #navbar #top {
     text-align: center;
-    background-color: gainsboro;
+    background-color: #b0bee1;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar #top #nav-top-content a {
+    display: inline-block;
+    color: white;
+    background-color: #b0bee1;
+    text-decoration: none;
+    border: 1px solid white;
     padding: 10px;
+}
+
+#navbar #top .icons i {
+    color: #8994ae;
+}
+
+#navbar #top .icons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
 }
 
 #navbar #top h4 {
     margin: 0px;
 }
 
-#navbar #top #nav-top-content {
-    display: flex;
-}
+/* MIDDLE */
 
-#navbar #bottom {
+#navbar #middle {
     text-align: center;
-
 }
 
 #navbar #navbar-selection {
@@ -34,26 +59,69 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 1200px;
 }
 
 #navbar a img {
     width: 90px;
 }
 
-#navbar #bottom #navbar-selection a {
+#navbar #middle #navbar-selection a {
     color: black;
     text-decoration: none;
     margin-top: 10px;
 }
 
-#navbar #bottom #navbar-selection #cta-button-container #cta-buttom {
+/* BOTTOM */
+
+#navbar #bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    gap: 10px;
+    border-top: 1px solid #b0bee1;
+    border-bottom: 1px solid #b0bee1;
+    padding: 10px;
+}
+
+#navbar #bottom h5,
+#navbar #bottom p {
+    margin: 0px;
+}
+
+#navbar #bottom a {
+    color: white;
     background-color: #b0bee1;
     display: inline-block;
-    padding: 12px;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
 
+/* HOME */
+
+#hero {
+    background-image: url(../images/hero-1.webp);
+    height: 55vh;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero #hero-content a {
+    color: white;
+    display: display;
+    text-decoration: none;
+    background-color: #b0bee1;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#hero #hero-content {
+    text-align: center;
 }
 
 /* CONTACT US */
