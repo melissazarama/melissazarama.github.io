@@ -27,14 +27,14 @@ body {
 #navbar #top #nav-top-content a {
     display: inline-block;
     color: white;
-    background-color: #b0bee1;
+    background-color: #6e80ab;
     text-decoration: none;
     border: 1px solid white;
     padding: 10px;
 }
 
 #navbar #top .icons i {
-    color: #8994ae;
+    color: #6e80ab;
 }
 
 #navbar #top .icons {
@@ -92,7 +92,7 @@ body {
 
 #navbar #bottom a {
     color: white;
-    background-color: #b0bee1;
+    background-color: #6e80ab;
     display: inline-block;
     text-decoration: none;
     padding: 5px;
@@ -115,7 +115,7 @@ body {
     color: white;
     display: display;
     text-decoration: none;
-    background-color: #b0bee1;
+    background-color: #6e80ab;
     padding: 10px;
     border: 1px solid white;
 }
@@ -214,7 +214,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     background: linear-gradient(#bfc8e0, #a5b2d4, #8fa5dc);
     padding: 48px;
     color: white;
-
+    margin: 10px 0px;
 }
 
 #consultation-steps #title {
@@ -223,10 +223,12 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
 #consultation-steps #title h2 {
     margin-bottom: 5px;
+    font-size: 32px;
 }
 
 #consultation-steps #title h3 {
     margin-top: 0px;
+    font-size: 20px;
 }
 
 .single-column {
@@ -301,9 +303,9 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
 #introduction-side-by-side #image-container img {
     width: 550px;
-    height: 800px;
+    height: 600px;
     object-fit: cover;
-    padding: 20px 0px;
+    padding: 20px 20px;
 }
 
 #layout-1 {
@@ -322,7 +324,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 50px 20px 20px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
 }
 
@@ -337,7 +339,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
 #layout-1 #text-container a {
     display: inline-block;
     color: white;
-    background-color: #b0bee1;
+    background-color: #6e80ab;
     text-decoration: none;
     padding: 10px;
 }
@@ -345,32 +347,44 @@ input:not(:focus):not(:placeholder-shown):invalid {
 /* SERVICES-SECTIONS */
 
 #services-section .title {
-    text-align: left;
-    margin-left: 30px;
-    font-size: 18px;
+    text-align: center;
+    font-size: 17px;
 }
 
 #services-section .services-card img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 }
 
 #services-section .service-single-column {
-    width: 1900px;
+    width: 1200px;
     margin: 0px auto;
     padding: 0px 20px;
 }
 
 #services-section .service-card-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #services-section .services-card {
     padding: 0px 4px;
+    text-align: center;
+    margin: 5px;
 }
 
+#services-section .services-card h3 {
+    margin: 4px 4px 7px 4px;
+}
+
+#services-section .services-card a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #6e80ab;
+    padding: 7px;
+}
 
 /* FOOTER */
 
