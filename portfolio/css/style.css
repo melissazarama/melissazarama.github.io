@@ -210,7 +210,7 @@ input,
 select,
 textarea {
     padding: 12px;
-    width: 100%;
+    width: 100% !important;
     box-sizing: border-box;
     border: 1px solid #CCCCCC;
     margin-bottom: 16px;
@@ -222,7 +222,7 @@ textarea {
 
 input[type=submit] {
     width: auto;
-    background-color: #0e6de1;
+    background-color: #6e80ab;
     color: white;
     border: 0;
     border-radius: 3px;
@@ -496,3 +496,40 @@ footer {
 #footer-bottom .card-footer p {
     margin: 0px;
 }
+
+/* SERVICES WEBPAGE */
+
+#services {
+    background-color: #bfc8e0;
+}
+
+#service-container {
+    width: 1500px;
+    margin: 0px auto;
+}
+
+#service-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-by-side-service-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+#service-container .image-container img {
+    width: 350px;
+}
+
+#service-container .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-left: 30px;
+}
+
+
