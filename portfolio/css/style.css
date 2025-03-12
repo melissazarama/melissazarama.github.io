@@ -445,3 +445,75 @@ footer {
 #footer-bottom .card-footer p {
     margin: 0px;
 }
+
+/* SERVICES PAGE */
+
+#title-page {
+    text-align: center;
+}
+
+#services {
+    max-width: 1200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#services .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 0px 10px;
+    background-color: #a5b2d4;
+}
+
+#services .image-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#services .image-container {
+    width: 300px;
+    border: 4px solid white;
+}
+
+#services .title {
+    font-weight: bold;
+}
+
+#services .title p {
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+#services .characteristics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+#services .characteristics p {
+    font-size: 13px;
+    margin: 1px;
+}
+
+#services .description {
+    padding: 10px
+}
+
+#services .description p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#services a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #6e80ab;
+    padding: 5px;
+    font-size: 12px;
+}
