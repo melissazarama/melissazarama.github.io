@@ -31,6 +31,13 @@ body {
     text-decoration: none;
     border: 1px solid white;
     padding: 10px;
+    transition: box-shadow 0.35s,
+                transform 0.35s;
+}
+
+#navbar #top #nav-top-content a:hover {
+    box-shadow: 1px 1px 12px #00000043;
+    transform: translateY(1px);
 }
 
 #navbar #top .icons i {
@@ -72,6 +79,11 @@ body {
     margin-top: 10px;
 }
 
+#navbar #middle #navbar-selection a:hover {
+    text-decoration: underline;
+    color: #6e80ab;
+}
+
 /* BOTTOM */
 
 #navbar #bottom {
@@ -96,9 +108,16 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 5px;
+    transition: box-shadow 0.35s,
+                transform 035s;
 }
 
-/* HOME */
+#navbar #bottom a:hover {
+    box-shadow: 1px 1px 12px #00000043;
+    transform: translateY(1px)
+}
+
+/* HERO */
 
 #hero {
     background-image: url(../images/hero-1.webp);
@@ -118,6 +137,13 @@ body {
     background-color: #6e80ab;
     padding: 10px;
     border: 1px solid white;
+    transition: box-shadow 0.35s,
+                transform 0.35s;
+}
+
+#hero #hero-content a:hover {
+    box-shadow: 1px 1px 12px #00000043;
+    transform: translateY(1px);
 }
 
 #hero #hero-content {
@@ -129,8 +155,8 @@ body {
 #layout {
     display: flex;
     justify-content: center;
-    margin: 0px auto;
-    max-width: 1000px;
+    margin: 0px auto 50px auto;
+    max-width: 2000px;
 }
 
 #contact-column header {
@@ -184,7 +210,7 @@ input,
 select,
 textarea {
     padding: 12px;
-    width: 100%;
+    width: 100% !important;
     box-sizing: border-box;
     border: 1px solid #CCCCCC;
     margin-bottom: 16px;
@@ -196,7 +222,7 @@ textarea {
 
 input[type=submit] {
     width: auto;
-    background-color: #0e6de1;
+    background-color: #6e80ab;
     color: white;
     border: 0;
     border-radius: 3px;
@@ -247,9 +273,10 @@ input:not(:focus):not(:placeholder-shown):invalid {
     flex-direction: column;
     align-items: center;
     border: 3px solid #6e80ab;
-    /* background-color: white; */
+    background-color: white;
     text-align: center;
     margin: 36px;
+    color: black;
 }
 
 .step-card h4 {
@@ -294,11 +321,12 @@ input:not(:focus):not(:placeholder-shown):invalid {
     height: 40px;
 }
 
-/* INTRODUCTION SIDE BY SIDE */
+/* LAY OUT 1 INTRODUCTION SIDE BY SIDE */
 
 #introduction-side-by-side {
     background-color: white;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.371);
+    border: 1px outset #6e80ab;
 }
 
 #introduction-side-by-side #image-container img {
@@ -321,11 +349,15 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
 #introduction-single-column #text-container {
     flex: 1;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px 20px 20px 20px;
     text-align: center;
+    margin-top: 50px;
+}
+
+#introduction-single-column #text-container h3 {
+    font-size: 30px;
 }
 
 #introduction-single-column #image-container {
@@ -342,6 +374,13 @@ input:not(:focus):not(:placeholder-shown):invalid {
     background-color: #6e80ab;
     text-decoration: none;
     padding: 10px;
+    transition: box-shadow 0.35s,
+                transform 0.35s;
+}
+
+#layout-1 #text-container a:hover {
+    box-shadow: 1px 1px 12px #00000043;
+    transform: translateY(1px);
 }
 
 /* SERVICES-SECTIONS */
@@ -384,6 +423,13 @@ input:not(:focus):not(:placeholder-shown):invalid {
     display: inline-block;
     background-color: #6e80ab;
     padding: 7px;
+    transition: box-shadow 0.35s,
+                transform 0.35s;
+}
+
+#services-section .services-card a:hover {
+    box-shadow: 1px 1px 12px #00000043;
+    transform: translateY(1px);
 }
 
 /* FOOTER */
@@ -431,6 +477,11 @@ footer {
 #footer-bottom .card-flex a {
     color: black;
     text-decoration: none;
+}
+
+#footer-bottom .card-flex a:hover {
+    text-decoration: underline;
+    color: #6e80ab;
 }
 
 #footer-bottom .card-footer h4 {
