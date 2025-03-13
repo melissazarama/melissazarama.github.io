@@ -499,12 +499,12 @@ footer {
 
 /* SERVICES PAGE */
 
-#title-page {
+#title-page h1 {
     text-align: center;
 }
 
 #services {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -540,9 +540,14 @@ footer {
 }
 
 #services .characteristics {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 2px;
+
+}
+
+#services .characteristics i {
+    color: rgb(159, 43, 43);
 }
 
 #services .characteristics p {
