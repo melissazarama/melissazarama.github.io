@@ -517,6 +517,7 @@ footer {
     padding: 30px;
     margin: 0px 10px;
     background-color: #a5b2d4;
+    border: 4px solid #6e80ab;
 }
 
 #services .image-container img {
@@ -530,8 +531,8 @@ footer {
     border: 4px solid white;
 }
 
-#services .title {
-    font-weight: bold;
+#services .title h4 {
+    margin: 10px;
 }
 
 #services .title p {
