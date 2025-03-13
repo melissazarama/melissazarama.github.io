@@ -524,6 +524,7 @@ footer {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    display: block;
 }
 
 #services .image-container {
@@ -573,4 +574,5 @@ footer {
     background-color: #6e80ab;
     padding: 5px;
     font-size: 12px;
+    border: 1px solid white;
 }
