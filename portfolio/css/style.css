@@ -501,6 +501,12 @@ footer {
 
 #title-page h1 {
     text-align: center;
+    font-size: 40px;
+}
+
+#title-page h2 {
+    text-align: center;
+    font-size: 30px;
 }
 
 #services {
@@ -517,7 +523,7 @@ footer {
     padding: 30px;
     margin: 0px 10px;
     background-color: #a5b2d4;
-    border: 4px solid #6e80ab;
+    border: 1px solid #6e80ab;
 }
 
 #services .image-container img {
@@ -529,7 +535,7 @@ footer {
 
 #services .image-container {
     width: 300px;
-    border: 4px solid white;
+    border: 1px solid white;
 }
 
 #services .title h4 {
