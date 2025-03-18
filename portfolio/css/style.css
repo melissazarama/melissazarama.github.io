@@ -499,6 +499,8 @@ footer {
 
 /* SERVICES PAGE */
 
+/* PIGMENTATION EYEBROW TECHNIQUES */
+
 #title-page h1 {
     text-align: center;
     font-size: 40px;
@@ -581,4 +583,16 @@ footer {
     padding: 5px;
     font-size: 12px;
     border: 1px solid white;
+}
+
+/* EYEBROW COMPARATION TABLE */
+
+.single-column {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background: #bfc8e0;
+    padding: 48px;
 }
