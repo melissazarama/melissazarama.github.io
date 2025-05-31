@@ -333,6 +333,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     width: 550px;
     height: 600px;
     object-fit: cover;
+    object-position: 100%;
     padding: 20px 20px;
 }
 
@@ -508,7 +509,7 @@ footer {
 
 #title-page h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #services {
@@ -595,6 +596,7 @@ footer {
 #main-section {
     background: #bfc8e0;
     padding: 1px;
+    margin-top: 50px;
 }
 
 .comparisons-container {
@@ -603,7 +605,7 @@ footer {
 }
 
 .comparisons-container h3 {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .comparisons-layout-1 {
