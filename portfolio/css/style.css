@@ -525,7 +525,13 @@ footer {
     align-items: center;
     padding: 20px;
     margin: 0px 10px;
-    background-color: #a5b2d4;
+    background:
+        linear-gradient(
+            -0deg,
+            #b0bee1,
+            #8994ae,
+            #b0bee1
+        );
     border: 1px solid #6e80ab;
 }
 
@@ -545,36 +551,23 @@ footer {
     margin: 10px;
 }
 
-#services .title p {
+#services .title {
     margin-top: 3px;
     font-size: 18px;
 }
 
-#services .characteristics {
-    display: flex;
-    gap: 20px;
-    padding: 2px;
-
+#services .card p.border-bottom {
+    border-bottom: 1px solid #8994ae;
 }
 
-#services .characteristics i {
-    color: rgb(159, 43, 43);
-}
-
-#services .characteristics p {
-    font-size: 13px;
-    margin: 1px;
-}
-
-#services .description {
-    padding: 10px
-}
-
-#services .description p {
+#services p {
     font-size: 13px;
     text-align: center;
     margin-top: 0px;
+    padding: 10px 10px 20px 10px;
+    flex: 1;
 }
+
 
 #services a {
     display: inline-block;
@@ -584,6 +577,7 @@ footer {
     padding: 5px;
     font-size: 12px;
     border: 1px solid white;
+    margin-top: 10px;
 }
 
 /* EYEBROW COMPARATION TABLE */
