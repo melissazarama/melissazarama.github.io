@@ -70,7 +70,8 @@ body {
 }
 
 #navbar a img {
-    width: 120px;
+    width: 170px;
+    margin: 10px;
 }
 
 #navbar #middle #navbar-selection a {
@@ -120,10 +121,10 @@ body {
 /* HERO */
 
 #hero {
-    background-image: url(../images/hero-1.webp);
-    height: 55vh;
+    background-image: url(../images/heroindex.jpg);
+    height: 50vh;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
