@@ -29,8 +29,7 @@ body {
     color: white;
     background-color: #6e80ab;
     text-decoration: none;
-    border: 1px solid white;
-    padding: 10px;
+    padding: 5px;
     transition: box-shadow 0.35s,
                 transform 0.35s;
 }
@@ -646,8 +645,32 @@ footer {
 ****************************************************************************/
 
 @media screen and (max-width: 768px) {
-    #nav {
+    #navbar #top {
         flex-direction: column;
+        padding: 10px;
     }
+
+    #navbar #top #nav-top-content {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    #navbar #navbar-selection {
+        flex-direction: column;
+        width: 0px;
+    }
+    
+    #navbar #middle #navbar-selection a {
+        background-color: #6e80ab;
+        padding: 5px;
+        color: white;
+        width: 100vh;
+        margin: 1px;
+    }
+
+    #navbar #middle #navbar-selection a:hover {
+        color: #8f1739;
+        background-color: white;
+        text-decoration: none;
     
 }
