@@ -644,7 +644,7 @@ footer {
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     #navbar #top {
         flex-direction: column;
         padding: 10px;
@@ -672,5 +672,6 @@ footer {
         color: #8f1739;
         background-color: white;
         text-decoration: none;
+    }
     
 }
