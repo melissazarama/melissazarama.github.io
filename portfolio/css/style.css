@@ -641,7 +641,7 @@ footer {
 }
 
 /****************************************************************************
-  Media Query - Mobile Breakpoint
+  Media Query Index - Mobile Breakpoint
 ****************************************************************************/
 
 @media screen and (max-width: 1200px) {
@@ -673,5 +673,44 @@ footer {
         background-color: white;
         text-decoration: none;
     }
+
+    #navbar #bottom {
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    #introduction-side-by-side #image-container img {
+        width: 350px;
+        height: 300px;
+    }
+
+    #introduction-side-by-side {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #introduction-single-column {
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px;
+    }
+
+    #layout-1 #text-container a {
+        padding: 5px;
+    }
+
+    #introduction-single-column #image-container {
+        order: 1;
+    }
+
+    #layout-1 #text-container {
+        order: 2;
+    }
+
+    #introduction-single-column #text-container {
+        margin-top: 0px;
+    }
+
     
 }
