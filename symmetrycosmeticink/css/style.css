@@ -7,11 +7,42 @@ body {
     font-family: sans-serif;
 }
 
+.center-column {
+    max-width: 1300px;
+    margin: 0px auto
+}
+
 #navbar {
     display: flex;
     align-items: center;
+    background: #edd1be;
+
 }
 
-#navbar #logo-container img {
-    width: 50px;
+#navbar #logo-container {
+    padding: 10px 20px;
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 280px;
+}
+
+#navbar .icons {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#navbar .icons .icons1 {
+    margin-left: 10px;
+}
+
+#navbar .icons #cta-button {
+    margin-left: 30px;
+    background-color: #8f1739;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+
 }
